@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Catálogo digital con pedidos por WhatsApp. Tres demos listos: taquería, tienda de abarrotes y barbería.">
+  <meta name="theme-color" content="#25D366">
+  <title>Catálogo Digital · Pedidos por WhatsApp</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing">
+
+  <!-- Topbar ------------------------------------------------- -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">🛒</span>
+        <span>CatálogoWA</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#demos">Demos</a>
+        <a href="#features">Funciones</a>
+        <a href="#stack">Stack</a>
+      </nav>
+      <a href="taqueria.html" class="cta-pill">Ver demo en vivo →</a>
+    </div>
+  </header>
+
+  <!-- Hero --------------------------------------------------- -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div>
+        <h1>
+          Tu catálogo digital
+          con pedidos por
+          <span class="grad">WhatsApp</span> 📱
+        </h1>
+        <p class="lede">
+          Convierte tu negocio en una vitrina online. Tus clientes eligen productos,
+          arma su pedido y te llega <strong>directo a tu WhatsApp</strong> listo para
+          confirmar.
+        </p>
+        <div class="hero-ctas">
+          <a href="taqueria.html" class="btn-primary">
+            🌮 Demo Taquería
+          </a>
+          <a href="tienda.html" class="btn-secondary">
+            🛒 Demo Tienda
+          </a>
+          <a href="barberia.html" class="btn-secondary">
+            💈 Demo Barbería
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>3</strong>Demos listos</div>
+          <div><strong>1</strong>Línea de código para personalizar</div>
+          <div><strong>0</strong>Servicios ni hosting</div>
+        </div>
+      </div>
+
+      <!-- Mockup de WhatsApp -->
+      <div class="mockup" aria-hidden="true">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="phone-header">
+              <div class="phone-avatar">🌮</div>
+              <div>
+                <h4>Taquería El Corazón</h4>
+                <small>en línea</small>
+              </div>
+            </div>
+            <div class="phone-body">
+              <div class="bubble">¡Hola! Quiero hacer un pedido 😊<br><small>19:42</small></div>
+              <div class="bubble out">¡Hola, Juan! Qué se te antoja hoy 🌮<br><small>19:42 ✓✓</small></div>
+              <div class="bubble">3 tacos al pastor, 1 torta cubana, 2 aguas de horchata<br><small>19:43</small></div>
+              <div class="bubble out">Pedido:<br>• 3× Taco al Pastor — $135<br>• 1× Torta Cubana — $95<br>• 2× Agua de Horchata — $70<br><br><strong>Total: $300</strong><br>¿A domicilio o pasas a recoger?<br><small>19:43 ✓✓</small></div>
+              <div class="bubble">A domicilio, por favor. Calle Reforma 123<br><small>19:44</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demos -------------------------------------------------- -->
+  <section class="section container" id="demos">
+    <div class="section-head">
+      <span class="section-eyebrow">3 demos incluidos</span>
+      <h2>Cada negocio, su propio estilo</h2>
+      <p class="section-sub">
+        Tres catálogos completos con productos, carrito, checkout y pedido por WhatsApp.
+        Haz clic para probarlos.
+      </p>
+    </div>
+
+    <div class="demos-grid">
+
+      <a href="taqueria.html" class="demo-card taqueria">
+        <span class="demo-emoji">🌮</span>
+        <h3>Taquería El Corazón</h3>
+        <p>
+          Tacos al pastor, asada, pollo y más. Categorías por tipo, combos
+          y bebidas. Paleta cálida mexicana.
+        </p>
+        <div class="demo-meta">
+          <span class="demo-tag">Comida</span>
+          <span class="demo-tag">Delivery</span>
+          <span class="demo-tag">Promos</span>
+        </div>
+        <span class="demo-cta">Ver demo →</span>
+      </a>
+
+      <a href="tienda.html" class="demo-card tienda">
+        <span class="demo-emoji">🛒</span>
+        <h3>Abarrotes Doña Mary</h3>
+        <p>
+          Despensa, bebidas, botanas, lácteos y limpieza. Envío gratis
+          sobre $500. Estilo limpio y moderno.
+        </p>
+        <div class="demo-meta">
+          <span class="demo-tag">Abarrotes</span>
+          <span class="demo-tag">Delivery</span>
+          <span class="demo-tag">Envío gratis</span>
+        </div>
+        <span class="demo-cta">Ver demo →</span>
+      </a>
+
+      <a href="barberia.html" class="demo-card barberia">
+        <span class="demo-emoji">💈</span>
+        <h3>Barbería El Navajazo</h3>
+        <p>
+          Cortes, barba y combos. Reserva tu cita por WhatsApp con
+          fecha y hora. Estilo premium con negro y dorado.
+        </p>
+        <div class="demo-meta">
+          <span class="demo-tag">Servicios</span>
+          <span class="demo-tag">Citas</span>
+          <span class="demo-tag">Combos</span>
+        </div>
+        <span class="demo-cta">Ver demo →</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Features ----------------------------------------------- -->
+  <section class="section container" id="features">
+    <div class="section-head">
+      <span class="section-eyebrow">Funciones</span>
+      <h2>Todo lo que necesita tu negocio</h2>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon">🛒</div>
+        <h4>Carrito integrado</h4>
+        <p>Suma productos, ajusta cantidades y ve el total al instante. Sin registros ni login.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💬</div>
+        <h4>Pedido por WhatsApp</h4>
+        <p>Al confirmar, abre WhatsApp con el pedido formateado listo para enviar al negocio.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🛵</div>
+        <h4>Domicilio o recoger</h4>
+        <p>El cliente elige entrega, agrega su dirección y método de pago. Todo en un paso.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🎨</div>
+        <h4>Personalizable</h4>
+        <p>Cambia productos, precios, colores y el número de WhatsApp en un solo archivo JS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech banner -------------------------------------------- -->
+  <section class="section container" id="stack">
+    <div class="tech-banner">
+      <div>
+        <h3>Stack: HTML + CSS + JavaScript vanilla</h3>
+        <p>
+          Sin frameworks, sin build, sin dependencias. Súbelo a cualquier hosting
+          estático (Netlify, Vercel, GitHub Pages, Hostinger) o ábrelo directo
+          en tu navegador.
+        </p>
+        <div class="tech-pills">
+          <span>📦 7 archivos</span>
+          <span>⚡ Carga instantánea</span>
+          <span>📱 Mobile-first</span>
+          <span>🔌 Cero dependencias</span>
+        </div>
+      </div>
+      <pre class="big-code"><strong>📁 proyecto/
+├── index.html      <span># Landing</span>
+├── taqueria.html   <span># Demo 1</span>
+├── tienda.html     <span># Demo 2</span>
+├── barberia.html   <span># Demo 3</span>
+├── styles.css      <span># Estilos</span>
+├── app.js          <span># Lógica + datos</span>
+└── README.md       <span># Guía</span></strong></pre>
+    </div>
+  </section>
+
+  <!-- Footer ------------------------------------------------- -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Hecho con ❤️ · Personalízalo para <strong>tu negocio</strong> y empieza a recibir pedidos hoy mismo.
+      </p>
+      <p style="margin-top: 8px;">
+        <a href="taqueria.html" style="color: var(--primary); font-weight: 600;">Probar Taquería →</a>
+        ·
+        <a href="tienda.html" style="color: var(--primary); font-weight: 600;">Probar Tienda →</a>
+        ·
+        <a href="barberia.html" style="color: var(--primary); font-weight: 600;">Probar Barbería →</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
